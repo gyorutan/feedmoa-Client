@@ -1,0 +1,56 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*------------------------- 전역설정 -------------------------*/
+* {
+  font-family: "nanumsquare";
+}
+body {
+  margin-top: 130px;
+}
+.logo-img {
+  width: 250px;
+}
+.close-modal-img {
+  width: 30px;
+  height: 30px;
+}
+input:focus {
+  outline: none;
+}
+
+/*------------------------- 로그인 팝업 -------------------------*/
+.login-id-input {
+  height: 40px;
+  width: 280px;
+  padding: 10px;
+  border: 1px solid #cecdce;
+  border-radius: 3px;
+  background: rgb(240, 240, 240);
+}
+.login-pw-input {
+  height: 40px;
+  width: 280px;
+  padding: 10px;
+  border: 1px solid #cecdce;
+  border-radius: 3px;
+  background: rgb(240, 240, 240);
+}
+
+/*------------------------- 회원가입 팝업 -------------------------*/
+.duplicate-btn {
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.textarea:focus {
+  outline: none;
+}
